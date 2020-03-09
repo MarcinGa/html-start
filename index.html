@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- nav#main-nav>ul>li.list-item*5>a -->
+    <nav id="main-nav">
+        <ul>
+            <li class="list-item"><a href="https://google.com" target="_blank">google.com</a></li>
+            <li class="list-item"><a href="/kontakt">kontakt</a></li>
+            <li class="list-item"><a href="#footer">footer</a></li>
+            <li class="list-item"><a href="mailto:gozdzikov@gmail.com">gozdzikov@gmail.com</a></li>
+            <li class="list-item"><a href="tel:+48730024171">+48 730 024 171</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="main-section">
+        <table>
+            <thead>
+                <tr>
+                    <th>Np.</th>
+                    <th>nazwa</th>
+                    <th>cena</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>jabłko</td>
+                    <td>3zł/kg</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>gruszka</td>
+                    <td>4zł/kg</td>
+                    <!-- <td>dostępny</td> -->
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer id="footer">
+        <form action="" method="POST">
+            <label for="name">Imię i nazwisko</label><br>
+            <input type="text" name="name" ><br>
+            <input type="email" name="email" required id=""><br>
+            <input type="number" name="tel" id="name"><br>
+            <input type="checkbox" name="agreement" id=""><br>
+            <input type="radio" name="gender" id="">Kobieta <br>
+            <input type="radio" name="gender" id="">Mężcztyzna <br>
+            <textarea name="msg" maxlength="255" id="" disabled></textarea><br>
+            <select name="city" id="">
+                <option value="Kraków">Kraków</option>
+                <option value="Warszawa">Warszawa</option>
+                <option value="Katowice">Katowice</option>
+            </select>
+            <input type="submit" value="wyślij">
+        </form>
+    </footer>
+</body>
+</html>
